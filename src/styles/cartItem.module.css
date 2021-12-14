@@ -1,0 +1,21 @@
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+}
+.cartItem button {
+  height: 50%;
+  margin: auto;
+}
+
+.cartItem :last-child {
+  margin-left: auto;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+}
+
+.qty {
+  display: flex;
+}

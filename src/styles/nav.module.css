@@ -1,0 +1,38 @@
+.header {
+  height: 10vh;
+  padding: 10px;
+  background-color: #151630;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header :first-child {
+  margin-right: auto;
+  font-size: 2rem;
+}
+
+.header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.header li a {
+  margin: 5px 15px;
+}
+
+.header a:visited {
+  color: #fff;
+}
+
+.header button {
+  padding: 5%;
+  border-radius: 1rem;
+}

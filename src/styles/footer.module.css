@@ -1,0 +1,12 @@
+.foot {
+  background: #333;
+  color: #ccc;
+  height: 5vh;
+  margin: auto;
+}
+
+.foot p {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}

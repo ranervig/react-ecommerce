@@ -1,0 +1,33 @@
+.cart {
+  width: 30vw;
+  max-height: 75vh;
+  overflow-y: scroll;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  right: 2vw;
+  padding: 1%;
+  margin-top: 15vh;
+  margin-bottom: 5vh;
+  border: 1px solid #222222;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #eeeeee;
+}
+
+.cart img {
+  max-width: 15%;
+  max-height: 10vh;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.head button {
+  border: none;
+  padding: 0;
+  margin-right: 5%;
+}
